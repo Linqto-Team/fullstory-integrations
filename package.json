@@ -6,6 +6,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "main": "dist/index",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ]
   "scripts": {
     "docs": "npm run docs:root && npm run docs:packages",
     "docs:root": "doctoc README.md --title '**Table of content**'",
