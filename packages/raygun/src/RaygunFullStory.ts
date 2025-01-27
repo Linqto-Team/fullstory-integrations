@@ -23,7 +23,7 @@ class RaygunFullStory {
 
     client('withCustomData', () => {
       // FS.event is immediately ready even if FullStory isn't fully bootstrapped
-      FullStory.event(fsEventName, {
+      FullStory.FullStory.event(fsEventName, {
         raygunUrl: getRaygunUrl(),
         ...getOriginalExceptionProperties(event)
       });
