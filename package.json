@@ -7,7 +7,6 @@
     "packages/*"
   ],
   "main": "dist/index",
-  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ]
