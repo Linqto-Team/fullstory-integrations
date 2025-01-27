@@ -1,5 +1,5 @@
 {
-  "name": "@bharathvaj/fullstory-integrations",
+  "name": "fullstory-integrations",
   "description": "Fullstory integration Packages",
   "private": true,
   "workspaces": [
