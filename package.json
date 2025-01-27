@@ -1,5 +1,5 @@
 {
-  "name": "@bharathvaj/fullstory-integrations",
+  "name": "fullstory-integrations",
   "version": "1.0.0",
   "description": "Fullstory integration Packages",
   "private": true,
