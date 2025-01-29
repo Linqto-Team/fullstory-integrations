@@ -25,7 +25,7 @@ var RaygunFullStory = /** @class */ (function () {
         var getRaygunUrl = function () { return "Could not retrieve url"; };
         client('withCustomData', function () {
             // FS.event is immediately ready even if FullStory isn't fully bootstrapped
-            FullStory.Fullstory.event(fsEventName, __assign({ raygunUrl: getRaygunUrl() }, utils_1.getOriginalExceptionProperties(event)));
+            FullStory.FullStory.event(fsEventName, __assign({ raygunUrl: getRaygunUrl() }, utils_1.getOriginalExceptionProperties(event)));
             return {
                 fullstoryUrl: FullStory.getCurrentSessionURL(true) || 'current session URL API not ready'
             };
