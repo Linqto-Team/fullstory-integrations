@@ -27,7 +27,7 @@ var RaygunFullStory = /** @class */ (function () {
             // FS.event is immediately ready even if FullStory isn't fully bootstrapped
             FullStory.FullStory.event(fsEventName, __assign({ raygunUrl: getRaygunUrl() }, utils_1.getOriginalExceptionProperties(event)));
             return {
-                fullstoryUrl: FullStory.getCurrentSessionURL(true) || 'current session URL API not ready'
+                fullstoryUrl: FullStory.FullStory.getCurrentSessionURL(true) || 'current session URL API not ready'
             };
         });
     };
